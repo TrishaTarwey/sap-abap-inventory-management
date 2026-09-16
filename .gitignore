@@ -1,0 +1,44 @@
+# SAP ABAP Project .gitignore
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# SAP credentials and configuration
+saplogon.ini
+SAPUILandscape.xml
+*.pse
+*.cred
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+
+# Personal notes (not part of project)
+PERSONAL_NOTES.md
+TODO_PRIVATE.md
+
+# Node modules (if any tooling is used)
+node_modules/
+
+# Python virtual environments
+venv/
+__pycache__/
